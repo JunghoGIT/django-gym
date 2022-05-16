@@ -17,3 +17,9 @@ class Nothing(models.Model):
 
     contents = models.TextField()
 
+
+class Student(models.Model):
+    name = models.CharField(max_length=30)
+    major = models.CharField(max_length=30)
+    age = models.IntegerField()
+    is_woman = models.BooleanField()

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'study',
     'scripts',
     'django_extensions',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
